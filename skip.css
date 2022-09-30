@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#help {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+
+
+#log {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#help span,
+#log span {
+    font-size: 30px;
+    margin-right: 5px;
+
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+
+    width: 100%;
+
+}
+
+#bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#line {
+    height: 50px;
+    width: 1px;
+    background-color: gray;
+    margin-right: 20px;
+}
+
+#start {
+    background-image: url("./desktop-large.webp");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -75px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+
+}
+
+#say {
+    color: white;
+    font-size: 40px;
+}
+
+#location {
+    width: 50%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#near{
+    width: 100%;
+    background-color: #fb6100;
+    outline: none;
+    border: none;
+    padding: 20px 15px;
+    border-radius: 360px;
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+}
+ 
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+
+    margin-bottom: 20px;
+}
+
+#learn-more {
+    width: 90%;
+    background-color: #fb6100;
+    outline: none;
+    border: none;
+    padding: 20px 15px;
+    border-radius: 360px;
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    outline: none;
+}
+
+/* to style and attribute use two colonns like below */
+
+input::placeholder {
+    font-weight: 900;
+    font-size: 18px;
+}
+
+form span {
+    font-size: 30px !important;
+}
+
+#pros {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#time {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 60%;
+    padding-left: 200px;
+}
+
+#sandwhich {
+    width: 40%;
+    background-image: url("./sandwhich.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+#gain-time {
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+#life {
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+#skiprewards {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#earned {
+    background-image: url("./skiprewards.png");
+    width: 40%;
+    background-size: cover;
+    background-position: center center;
+}
+
+#program {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 200px;
+    background-color: #ffead4;
+}
+
+#skip-rewards {
+    font-size: 45px;
+    color: #ff8000;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+#learn-more {
+    width: 25%;
+    margin-top: 25px;
+    margin-left: -20;
+}
+
+#rewar {
+    font-weight: 900;
+}
+
+#phone {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #111b22;
+    padding-top: 30px;
+}
+
+#baystreet {
+    width: 50%;
+    height: 100%;
+    background-image: url("./skipphone.png");
+    background-size: contain;
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+#app {
+    width: 50%;
+    color: white;
+    text-align: left;
+    margin-left: 90px;
+}
+
+#whiteapp {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+
+#infocards3 {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #fcfcfb;
+}
+
+.card {
+    width: 20%;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 16px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 16px 16px 0px 0px;
+}
+
+
+.svg-img1 {
+    margin-top: -90px;
+}
+
+.CardsContent {
+    padding: 10px 70px;
+    margin: 15px 0px 20px 0px;
+}
+
+
+.CardsContent h1 {
+    margin-bottom: 20px;
+    /* font-size: 20px; */
+    font-weight: 900;
+}
+
+.CardsContent p {
+    font-size: 19px;
+    font-weight: 500;
+    color: grey;
+
+}
+
+#btn-apply {
+    width: 100%;
+
+}
+
+.card-btn {
+    width: 100%;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    padding: 30px 10px;
+    background-color: white;
+    border-radius: 0 0 16px 16px;
+    color: grey;
+    font-weight: 700;
+}
+
+.card-btn:hover {
+    background-color: lightgray;
+}
+
+
+#map {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fcfcfb;
+}
+
+#map-title {
+    height: 10%;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 20px;
+}
+
+#svg-map {
+    height: 90%;
+
+}
+
+#svg-img2 {
+    width: 10%;
+}
+
+.gyTGzP{
+    fill: #fb6100;
+}
+
+ #pop-cusine{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ #pasta{
+    background-image: url("./Italianpasta.jpg");
+ }
+
+ #pizza{
+    background-image: url("./Pizzaskip.png");
+ }
+
+ #china{
+    background-image: url("./Chineseskip.png");
+ }
+
+ #japan{
+    background-image: url("./Japaneseskip.jpg");
+ }
+
+ .food-types{
+    width: 446px;
+    height: 278px;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    border-radius: 10px;
+    margin: 10px;
+    padding-left:20px;
+    padding-bottom: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+ #food-ctn{
+    display: flex;
+    flex-direction: row;
+ }
+
+ #head-food{
+    font-size: 30px;
+    align-self: flex-start;
+    margin-left:360px ;
+ }
+
+ footer{
+    width: 100%;
+    height: 50vh;
+    background-color: #1B252E;
+    color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     font-size: 20px;
+ }
+
+ #FooterMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 55%;
+ }
+
+ div ul li{
+    list-style: none;
+    margin: 25px 0px;
+ }
+
+ hr{
+    width: 53%;
+    margin: 50px 0px 20px 0px;
+ }
+
+ #footermenu2{
+    width: 55%;
+     text-align: center;
+     font-size: 18px;   
+ }
+
+ #last-cont{
+    width: 100%;
+    background-color: #162028;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   align-self: flex-end;
+   margin-top: 180px;
+   font-weight: 700;
+ }
+
+#last{
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+    
+}
